@@ -5,7 +5,7 @@ Scrambled Number Generator
 - Plan your execution on white board before forking and cloning.
 - Fork and clone this project.
 - write unit tests for the generator
-  - should contain 1000 numbers
+  - calling `generate(1000)` should return an array that contains 1000 unique numbers (0-999)
   - generating the numbers twice should have a different order of numbers each time
 - commit your work
 - create a number generator that generates `n` many numbers
@@ -18,7 +18,7 @@ the function specification:
 function name: generate
 
 arguments:
-  amount - the amount of numbers to generate, counting from 0
+  amount - the amount of numbers to generate, counting from 0, to amount - 1
 
 returns:
   an array containing _`amount`_ many numbers in random order
