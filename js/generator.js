@@ -3,7 +3,7 @@ function generate(number) {
   if( typeof number !== 'number' ||
       typeof number === 'NaN' ||
       typeof number === Infinity ||
-      typeof number === -Infinity)
+      typeof number === -Infinity) {
 
     return "Invalid input.";
   }
@@ -26,6 +26,6 @@ function generate(number) {
   }
 
   return out;
-}
+};
 
-//module.exports = generate;
+module.exports = generate;

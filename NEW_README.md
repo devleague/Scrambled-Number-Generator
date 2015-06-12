@@ -16,10 +16,13 @@
 - Write unit tests for the generator in generator-spec.js. Commit!
   - Include either or both declations in your spec.js, depending on what syntax you want to use:
   ```sh
-
     var should = chai.should();
     var expect = chai.expect;
-
+  ```
+  - Also include
+  ```sh
+  var chai = require("chai");
+  var generator = require("../js/generator.js");
   ```
   - Be logical and atomic in your unit tests.
 - Run your tests by running mocha.
@@ -34,3 +37,7 @@
     ```
     should return an array that contains 1000 unique numbers.
     - Calling it again should return the same numbers in random order.
+    - Include
+    ```sh
+    module.exports = generate;
+    ```
