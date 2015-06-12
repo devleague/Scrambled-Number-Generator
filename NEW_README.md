@@ -26,6 +26,9 @@
   ```
   - Be logical and atomic in your unit tests.
 - Run your tests by running mocha.
+```sh
+mocha ./spec
+```
 - Implement the generator in generator.js. Commit!
   - Function name : generate
   - Takes "amount", the amount of numbers to generate, counting from 0 to "amount" - 1
