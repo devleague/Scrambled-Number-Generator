@@ -16,8 +16,10 @@
 - Write unit tests for the generator in generator-spec.js. Commit!
   - Include either or both declations in your spec.js, depending on what syntax you want to use:
   ```sh
+
     var should = chai.should();
     var expect = chai.expect;
+
   ```
   - Be logical and atomic in your unit tests.
 - Run your tests by running mocha.
