@@ -1,0 +1,22 @@
+{
+  "name": "Scrambled-Number-Generator",
+  "version": "0.0.0",
+  "description": "Scrambled Number Generator ==========",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/daniel-turner/Scrambled-Number-Generator.git"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/daniel-turner/Scrambled-Number-Generator/issues"
+  },
+  "devDependencies": {
+    "chai": "~3.0.0",
+    "mocha": "~2.2.5"
+  }
+}
