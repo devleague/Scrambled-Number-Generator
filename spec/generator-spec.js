@@ -23,11 +23,11 @@ describe("Scrambled Number Generator", function() {
 
   });
 
-  var out = generate(1000);
+  //var out = generate(1000);
 
   describe("generate output", function() {
 
-    out.length.should.equal(1000);
+    generate(1000).length.should.equal(1000);
 
 
   });
