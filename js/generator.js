@@ -1,9 +1,13 @@
 function generate(number) {
 
-  if( typeof number !== 'number' ||
-      typeof number === 'NaN' ||
-      typeof number === Infinity ||
-      typeof number === -Infinity) {
+  if( typeof number !== 'number') {
+
+    return "Invalid input.";
+  }
+
+  if(number === NaN || number === Infinity || number === -Infinity) {
+
+    console.log(number);
 
     return "Invalid input.";
   }
