@@ -9,6 +9,7 @@
     - [Folder] spec
       - generator-spec.js
 - Install npm, mocha, and chai from your Scrambled-Number-Generator folder
+
  ```sh
   $ npm init
   $ npm install -D mocha chai
