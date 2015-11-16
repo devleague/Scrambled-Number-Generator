@@ -1,0 +1,26 @@
+{
+  "name": "scrambled-number-generator",
+  "version": "1.0.0",
+  "description": "- Plan your execution on white board before forking and cloning. - Fork and clone the project. - Set up your file structure.   - [Folder] Scrambled-Number-Generator     - [Folder] js       - generator.js     - [Folder] spec       - generator-spec.js - Install npm, mocha, and chai from your Scrambled-Number-Generator folder",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cleong14/Scrambled-Number-Generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cleong14/Scrambled-Number-Generator/issues"
+  },
+  "homepage": "https://github.com/cleong14/Scrambled-Number-Generator#readme",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.3"
+  },
+  "dependencies": {
+    "chai": "^3.4.1"
+  }
+}
