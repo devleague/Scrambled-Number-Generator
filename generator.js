@@ -5,10 +5,15 @@ module.exports = function(n) {
     array.push(i);
   }
 
-  // pluck out random elements and put them into a new array
-  let result = [];
-  while (array.length > 0) {
-    result.push(array.splice(Math.floor(Math.random() * array.length), 1)[0]);
+  // Fisher-Yates-style
+  let placeholder, unshuffledElementIndex;
+  while (n) {
+    // pick an unshuffled element
+    unshuffledElementIndex = Math.floor(Math.random() * n--);
+    // and swap it with the current element
+    placeholder = array[n];
+    array[n] = array[unshuffledElementIndex];
+    array[unshuffledElementIndex] = placeholder;
   }
-  return result;
+  return array;
 };
