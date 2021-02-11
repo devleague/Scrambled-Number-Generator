@@ -1,19 +1,15 @@
-Exercise_1
-==========
+# Scrambled Number Generator
 
-## Scrambled Number Generator
+Create a function that takes in a number (n).
 
+It will generate n unique numbers and return those numbers in a random order. The unique numbers must start at 0 and can range up to but not including n.
 
-- Plan your execution on white board before forking and cloning.
-- write unit tests for the generator
-  - should contain 1000 numbers
-  - generating the numbers twice should have a different order of numbers each time
-- create a number generator, 1-1000
-scramble the numbers
-- Print the results in #main, each number on it’s own line
+Each call to this function with the same input, will generate the same n unique numbers but will have a different and random order.
 
-File structure:
-  - index.html
-  - js/exercise_1.js
-  - js/exercise_1.tests.js
-  - jasmine-2.0.0/
+For Example:
+
+```
+ generator(10);
+```
+
+Will generate an array of ten numbers but ordered randomly. Calling the same function with the same input of 10, will generate another array with the same ten numbers but with a different ordering.
